@@ -1,4 +1,4 @@
-FROM public.ecr.aws/eks-anywhere/projectcalico/node
+FROM public.ecr.aws/bitnami/node:12.22.4-debian-10-r10
 #RUN apk add --no-cache nodejs npm
 
 WORKDIR /app
