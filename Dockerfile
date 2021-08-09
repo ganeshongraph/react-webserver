@@ -1,4 +1,4 @@
-FROM node
+FROM public.ecr.aws/eks-anywhere/projectcalico/node
 #RUN apk add --no-cache nodejs npm
 
 WORKDIR /app
